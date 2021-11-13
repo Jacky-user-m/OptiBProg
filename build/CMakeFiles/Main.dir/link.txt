@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++17 -O0 -ggdb -Werror -Wall -fmax-errors=2   CMakeFiles/Main.dir/Main.cpp.o  -o Main  libreadLgf.a libcheck.a librandom.a libspanningTree.a libshortestPath.a libsteiner.a 

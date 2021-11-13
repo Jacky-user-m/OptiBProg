@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsteiner.a  CMakeFiles/steiner.dir/mySteinerTree.cpp.o
+/usr/bin/ranlib libsteiner.a
