@@ -1,2 +1,0 @@
-/usr/bin/ar qc libspanningTree.a  CMakeFiles/spanningTree.dir/mySpanningTree.cpp.o
-/usr/bin/ranlib libspanningTree.a

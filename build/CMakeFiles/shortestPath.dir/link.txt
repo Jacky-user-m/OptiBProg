@@ -1,2 +1,0 @@
-/usr/bin/ar qc libshortestPath.a  CMakeFiles/shortestPath.dir/myShortestPath.cpp.o
-/usr/bin/ranlib libshortestPath.a

@@ -1,9 +1,0 @@
-/home/jiiaqi/OptiBProg1/build/CMakeFiles/edit_cache.dir
-/home/jiiaqi/OptiBProg1/build/CMakeFiles/rebuild_cache.dir
-/home/jiiaqi/OptiBProg1/build/CMakeFiles/steiner.dir
-/home/jiiaqi/OptiBProg1/build/CMakeFiles/shortestPath.dir
-/home/jiiaqi/OptiBProg1/build/CMakeFiles/spanningTree.dir
-/home/jiiaqi/OptiBProg1/build/CMakeFiles/random.dir
-/home/jiiaqi/OptiBProg1/build/CMakeFiles/Main.dir
-/home/jiiaqi/OptiBProg1/build/CMakeFiles/check.dir
-/home/jiiaqi/OptiBProg1/build/CMakeFiles/readLgf.dir

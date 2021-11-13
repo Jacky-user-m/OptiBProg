@@ -1,2 +1,0 @@
-/usr/bin/ar qc libreadLgf.a  CMakeFiles/readLgf.dir/readLgf.cpp.o
-/usr/bin/ranlib libreadLgf.a
