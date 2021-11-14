@@ -14,4 +14,4 @@ typedef std::pair<std::pair<unsigned int, unsigned int>, unsigned int>
 typedef boost::property_map<Graph, boost::edge_weight_t>::type
     EdgeWeightPropertyMap;
 typedef boost::property_map<Graph, boost::edge_weight_t>::const_type
-	constEdgeWeightPropertyMap;
+	constEdgeWeightPropertyMap;   
