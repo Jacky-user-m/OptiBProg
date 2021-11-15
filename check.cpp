@@ -9,10 +9,11 @@
 // Compute total sum of a vector of weighted edges
 int weightSum(const std::vector<Edge> &edges,
               const EdgeWeightPropertyMap &edgeWeightMap) {
-  int totalWeight{0};
+    int totalWeight{0};
+
   for (std::vector<Edge>::const_iterator ei = edges.begin(); ei != edges.end();
        ++ei)
-    totalWeight += edgeWeightMap[*ei];
+  {totalWeight += edgeWeightMap[*ei];}
   return totalWeight;
 }
 int weightSum(const std::vector<Edge> &edges,
@@ -20,7 +21,7 @@ int weightSum(const std::vector<Edge> &edges,
   int totalWeight{0};
   for (std::vector<Edge>::const_iterator ei = edges.begin(); ei != edges.end();
        ++ei)
-    totalWeight += edgeWeightMap[*ei];
+  {totalWeight += edgeWeightMap[*ei];}
   return totalWeight;
 }
 
@@ -33,11 +34,13 @@ bool checkSpanningTree(const Graph &g, const std::vector<Edge> &mst) {
               << std::endl;
     return false;
   }
+
   if (mst.size() + 1 != num_vertices(g)) {
     std::cout << "The computed graph contains too many or not enough edges"
               << std::endl;
     return false;
   }
+
   int mstCosts{weightSum(mst, edgeWeightMap)};
   std::vector<Edge> spanning_tree;
   boost::kruskal_minimum_spanning_tree(g, std::back_inserter(spanning_tree));

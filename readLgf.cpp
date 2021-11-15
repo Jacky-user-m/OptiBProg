@@ -1,6 +1,8 @@
 #include "readLgf.h"
 
 #include <fstream>
+#include <iostream>
+#include <algorithm>
 
 // Convert edgeline to EdgeWithWeight
 EdgeWithWeight convertEdgeline(const std::string &input) {
@@ -27,6 +29,9 @@ Graph readGraphFromFile(const std::string &filename) {
   while (not line.empty()) {
     boost::add_vertex(g);
     std::getline(ifs, line);
+    line.erase(std::remove(line.begin(), line.end(), ' '), line.end());
+    line.erase(std::remove(line.begin(), line.end(), '\r'), line.end());
+    line.erase(std::remove(line.begin(), line.end(), '\n'), line.end());
   }
 
   for (unsigned int i = 0; i < 2; ++i) {
@@ -35,6 +40,7 @@ Graph readGraphFromFile(const std::string &filename) {
 
   std::getline(ifs, line);
   EdgeWithWeight edgew;
+
   while (ifs && (not line.empty())) {
     edgew = convertEdgeline(line);
     add_edge(edgew.first.first, edgew.first.second,
