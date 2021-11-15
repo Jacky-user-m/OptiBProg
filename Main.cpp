@@ -16,7 +16,7 @@ int main() {
             << std::endl;
   std::string algorithm;
   std::cin >> algorithm;
-  std::cout << "Which instance would you like to solve (1,2,3,4,5)?"
+  std::cout << "Which instance would you like to solve (1,2,3,4,5,6)?"
             << std::endl;
   std::string graphNumber;
   std::cin >> graphNumber;
