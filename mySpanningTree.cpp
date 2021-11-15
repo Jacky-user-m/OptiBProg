@@ -23,6 +23,8 @@ std::vector<Edge> my_spanning_tree(const Graph &g) {
     }
     std::sort(temp.begin(),temp.end(),sort_pred);
     for(auto it = temp.begin(); it != temp.end(); it++){
+    if((int)spanning_tree.size() == num_vertices-1){break;} 
+
     if(co_list[boost::source(it->first,g)] != co_list[boost::target(it->first,g)]){
         int bigger,smaller = -1;
         if(co_list[boost::source(it->first,g)]>co_list[boost::target(it->first,g)]){
@@ -85,7 +87,7 @@ std::vector<Edge> my_spanning_tree(const Graph &g) {
     //     curr_vertex = temp[curr_min_index];
     // }
 
-    
+
     auto stop = std::chrono::high_resolution_clock::now();
     auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
     std::cout << "Time taken by function: "
