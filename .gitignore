@@ -2,3 +2,4 @@ build/
 .vscode/
 build.sh
 .idea/
+cmake-build-debug/
