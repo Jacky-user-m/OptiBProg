@@ -88,9 +88,9 @@ std::vector<Edge> my_spanning_tree(const Graph &g) {
     // }
 
 
-    auto stop = std::chrono::high_resolution_clock::now();
-    auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
-    std::cout << "Time taken by function: "
-            << duration.count() << " microseconds" << std::endl;
+    // auto stop = std::chrono::high_resolution_clock::now();
+    // auto duration = std::chrono::duration_cast<std::chrono::microseconds>(stop - start);
+    // std::cout << "Time taken by function: "
+    //         << duration.count() << " microseconds" << std::endl;
     return spanning_tree;
 }
