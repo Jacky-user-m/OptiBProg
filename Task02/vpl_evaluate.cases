@@ -1,0 +1,117 @@
+case = MaxFlow 1
+input =MaxFlow
+1
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Maximum Flow of Graph 1:
+The flow is a maximum flow of value \.*/
+
+case = MaxFlow 2
+input =MaxFlow
+2
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Maximum Flow of Graph 2:
+The flow is a maximum flow of value \.*/
+
+case = MaxFlow 3
+input =MaxFlow
+3
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Maximum Flow of Graph 3:
+The flow is a maximum flow of value \.*/
+
+case = MaxFlow 4
+input =MaxFlow
+4
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Maximum Flow of Graph 4:
+The flow is a maximum flow of value \.*/
+
+
+
+
+
+
+
+
+
+case = Bipartition 1
+input =Bipartition
+1
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Bipartitioning of Graph 1:
+The computed bipartitioning is valid./
+
+case = Bipartition 2
+input =Bipartition
+2
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Bipartitioning of Graph 2:
+The computed bipartitioning is valid./
+
+case = Bipartition 3
+input =Bipartition
+3
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Bipartitioning of Graph 3:
+The computed odd cycle is valid./
+
+case = Bipartition 4
+input =Bipartition
+4
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Bipartitioning of Graph 4:
+The computed bipartitioning is valid./
+
+
+
+
+
+
+
+
+
+case = BipartiteMatching 1
+input =BipartiteMatching
+1
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Bipartite Matching of Graph 1:
+The computed matching has maximum weight \.*/
+
+case = BipartiteMatching 2
+input =BipartiteMatching
+2
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Bipartite Matching of Graph 2:
+The computed matching has maximum weight \.*/
+
+case = BipartiteMatching 4
+input =BipartiteMatching
+4
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Which instance would you like to solve \(1,2,3,4\)\?
+Computing Bipartite Matching of Graph 4:
+The computed matching has maximum weight \.*/
+
+
+
+
+
+
+
+
+
+case = Football
+input =Football
+output =/Which algorithm would you like to test \(MaxFlow, Bipartition, BipartiteMatching, Football\)\?
+Computing Optimal Betting:
+The betting is valid with an optimal value of \.*/

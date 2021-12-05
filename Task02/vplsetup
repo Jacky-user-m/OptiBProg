@@ -1,0 +1,17 @@
+Ausführungsdateien
+	types.h
+	readLgf.{h,cpp}
+	graph{1,2,3,4}.lgf
+	FootballBettingGameParser.{h,cpp}
+	Season12.txt
+	main.cpp
+	check.{h,cpp}
+  Bei cpp < 17 auch aus boost lokal daneben legen und includen:
+	maximum_weighted_matching.hpp
+	max_cardinality_matching.hpp
+
+Erforderliche Dateien:
+	MyBipartition.{h,cpp}
+	MyFootballBettingGame.{h,cpp}
+	MyMaxWeightedMatching.{h,cpp}
+	main.cpp (nur Lesezugriff)
